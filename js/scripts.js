@@ -25,29 +25,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-$(document).ready(function () {
-    $('#Project').DataTable({
-
-        columns: [
-            {
-                data: 'Customer',
-                render: function (data, type) {
-                    if (type === 'display') {
-                        let link = "http://datatables.net";
-
-                        if (data[0] < 'H') {
-                            link = "http://cloudtables.com";
-                        }
-                        else if (data[0] < 'S') {
-                            link = "http://editor.datatables.net";
-                        }
-
-                        return '<a href="' + link + '">' + data + '</a>';
-                    }
-
-                    return data;
-                }
-            }
-        ]
-    });
-});
+function OrderShipment() {
+    alert("Click");
+    //Ship the chosen order:
+    //1. create a new "shipment" record"
+    //2. update the status of this order to "shipped"
+}

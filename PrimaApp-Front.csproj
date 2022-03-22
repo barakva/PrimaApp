@@ -181,7 +181,8 @@
     <Content Include="Pages\NewFolder2\HtmlPage2.html" />
     <Content Include="Pages\NewFolder2\Orders - Copy.html" />
     <Content Include="Pages\Quality Assurance.html" />
-    <Content Include="Pages\WorkPlans.html" />
+    <Content Include="Pages\WorkPlansWeekly.html" />
+    <Content Include="Pages\WorkPlansDaily.html" />
     <Content Include="Pages\Shipments.html" />
     <Content Include="Pages\SubProjects.html" />
     <Content Include="Pages\NewFolder1\XXCustomers.html" />
